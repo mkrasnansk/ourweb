@@ -32,51 +32,11 @@ const StartupAgency = () => {
         Theme Hero Banner
         ============================================== 
 	  --> */}
-      <div className="hero-banner-seven">
-        <div className="main-content">
+      <div className="bg-deep-cyan">
+        <div className="main-content h-100">
           <Hero />
         </div>
-        {/* <!-- /.main-content --> */}
-        <a href="#about" className="scroll-btn">
-          <img
-            src={require("../../assets/images/icon/icon_73.svg").default}
-            alt="icon"
-          />
-        </a>
       </div>
-      {/* <!-- /.hero-banner-seven --> */}
-
-      {/* <!-- 
-        =============================================
-        Vcamp Feature Section Nine
-        ============================================== 
-		--> */}
-      <div className="vcamp-feature-section-nine pt-170 lg-pt-120" id="about">
-        <div className="container">
-          <div className="title-style-seven text-center pb-60 lg-pb-20">
-            <h2 className="title">
-              We help shape your ideas and turn them into{" "}
-              <span>
-                real businesses.{" "}
-                <img
-                  src={
-                    require("../../assets/images/shape/shape_53.svg").default
-                  }
-                  alt="shape"
-                />
-              </span>
-            </h2>
-            <p>We turn bold ideas into market-leading companies.</p>
-          </div>
-          {/* <!-- /.title-style-seven --> */}
-
-          <div className="row">
-            <Feature />
-          </div>
-        </div>
-      </div>
-      {/* <!-- /.vcamp-feature-section-nine --> */}
-
       {/* <!-- 
       =============================================
       Vcamp Text Block Seven
