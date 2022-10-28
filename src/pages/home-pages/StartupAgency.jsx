@@ -155,13 +155,13 @@ const StartupAgency = () => {
                   We’re our own Biggest{" "}
                   <span>
                     Investors{" "}
-                    <img
+                    {/* <img
                       src={
                         require("../../assets/images/shape/shape_53.svg")
                           .default
                       }
                       alt=""
-                    />
+                    /> */}
                   </span>
                 </h2>
                 <p>
@@ -198,12 +198,12 @@ const StartupAgency = () => {
             <h2 className="title">
               <span>
                 Company News{" "}
-                <img
+                {/* <img
                   src={
                     require("../../assets/images/shape/shape_56.svg").default
                   }
                   alt="shape"
-                />
+                /> */}
               </span>
             </h2>
           </div>

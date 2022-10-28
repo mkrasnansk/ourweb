@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import shapeImg from "../../assets/images/shape/shape_05.svg";
 import icon1 from "../../assets/images/icon/icon_29.svg";
 import icon2 from "../../assets/images/icon/icon_30.svg";
 import icon3 from "../../assets/images/icon/icon_31.svg";

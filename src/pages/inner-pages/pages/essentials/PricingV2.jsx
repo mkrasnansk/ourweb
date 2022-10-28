@@ -96,13 +96,13 @@ const PricingV2 = () => {
         --> */}
       <div className="fancy-banner-six reverse-space mb-70">
         <div className="container position-relative">
-          <img
+          {/* <img
             src={
               require("../../../../assets/images/shape/shape_34.svg").default
             }
             alt="shape"
             className="shapes shape-one"
-          />
+          /> */}
           <div className="inner-content position-relative">
             <div className="row align-items-center">
               <div className="col-xxl-8 col-lg-9">

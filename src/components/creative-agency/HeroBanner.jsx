@@ -6,7 +6,6 @@ import screen5 from "../../assets/images/assets/screen_05.png";
 import screen6 from "../../assets/images/assets/screen_06.png";
 import screen7 from "../../assets/images/assets/screen_07.png";
 import screen8 from "../../assets/images/assets/screen_08.png";
-import shape3 from "../../assets/images/shape/shape_03.svg";
 import btnIcon from "../../assets/images/icon/icon_23.svg";
 import { Link } from "react-router-dom";
 

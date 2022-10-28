@@ -13,7 +13,7 @@ const Hero = () => {
       {/* End .row */}
 
       <div className="right-content-wrapper">
-        <img
+        {/* <img
           className="circle-text shapes"
           src={require("../../../assets/images/shape/shape_73.svg").default}
           alt="shape"
@@ -22,7 +22,7 @@ const Hero = () => {
           className="circle-shape shapes"
           src={require("../../../assets/images/shape/shape_74.svg").default}
           alt="shape"
-        />
+        /> */}
 
         <div className="hero_slider_four">
           <HeroSlider />
@@ -30,10 +30,10 @@ const Hero = () => {
         {/* End hero_slider_four */}
 
         <div className="rating-box">
-          <img
+          {/* <img
             src={require("../../../assets/images/shape/shape_72.svg").default}
             alt="shape"
-          />
+          /> */}
           <div className="rate font-zen">
             9.3 <br />
             <span>Rating</span>

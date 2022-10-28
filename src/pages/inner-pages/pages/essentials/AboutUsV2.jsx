@@ -50,11 +50,11 @@ const AboutUsV2 = () => {
           <h2 className="page-title">Inside Story</h2>
           <p>We’re empowering WordPress to do great things together</p>
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_24.svg").default}
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.inside-hero-two --> */}
 
@@ -153,7 +153,7 @@ const AboutUsV2 = () => {
           </div>
           {/* End .row */}
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_25.svg").default}
           alt="shape"
           className="shapes shape-one"
@@ -162,7 +162,7 @@ const AboutUsV2 = () => {
           src={require("../../../../assets/images/shape/shape_26.svg").default}
           alt="shape"
           className="shapes shape-two"
-        />
+        /> */}
       </div>
       {/* <!-- /.vcamp-feature-section-six --> */}
 
@@ -197,22 +197,22 @@ const AboutUsV2 = () => {
 			=====================================================
 			--> */}
       <div className="feedback-section-four bg-white mt-60">
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_27.svg").default}
           alt="shape"
           className="shapes shape-five"
-        />
+        /> */}
 
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={
                 require("../../../../assets/images/shape/shape_08.svg").default
               }
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>
@@ -268,14 +268,14 @@ const AboutUsV2 = () => {
                           />
                         </Link>
                       </div>
-                      <img
+                      {/* <img
                         src={
                           require("../../../../assets/images/shape/shape_21.svg")
                             .default
                         }
                         alt="shape"
                         className="shape mt-15 d-none d-md-block"
-                      />
+                      /> */}
                     </div>
                     {/* End .col */}
 

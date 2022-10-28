@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../../assets/images/media/img_04.jpg";
-import img2 from "../../assets/images/shape/shape_04.svg";
-import img3 from "../../assets/images/shape/shape_05.svg";
 
 const TextBlockOne = () => {
   return (
@@ -32,11 +30,9 @@ const TextBlockOne = () => {
 
         <div className="left-img-meta">
           <img src={img1} alt="media" />
-          <img src={img2} alt="shape" className="shapes shape-one" />
         </div>
         {/* End left-img-meta */}
 
-        <img src={img3} alt="shape" className="shapes shape-two" />
       </div>
     </>
   );

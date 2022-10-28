@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import shapeImg from "../../../../assets/images/shape/shape_12.svg";
 import Sidebar from "../../../../components/common/header/sidebar/Sidebar";
 import Header from "../../../../components/business/Header";
 import ContactMeta from "../../../../components/common/contact/ContactMeta";

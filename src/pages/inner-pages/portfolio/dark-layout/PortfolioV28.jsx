@@ -42,11 +42,11 @@ const PortfolioV28 = () => {
           <h2 className="page-title">Portfolio Masonry</h2>
           <p>An original way to show your works in a good appearance.</p>
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_24.svg").default}
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.inside-hero-two --> */}
 

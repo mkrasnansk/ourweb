@@ -130,11 +130,11 @@ const AgencyMinimal = () => {
           <TextBlockTwo />
         </div>
         {/* End TextBlockTwo */}
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_17.svg").default}
           alt="shape"
           className="shapes shape-two"
-        />
+        /> */}
       </div>
       {/* <!-- /.vcamp-text-block-two --> */}
 
@@ -216,7 +216,7 @@ const AgencyMinimal = () => {
           {/* <!-- /.feedback_slider_five --> */}
         </div>
         {/* <!-- /.slider-wrapper --> */}
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_18.svg").default}
           alt="shape"
           className="shapes shape-one"
@@ -225,7 +225,7 @@ const AgencyMinimal = () => {
           src={require("../../assets/images/shape/shape_19.svg").default}
           alt="shape"
           className="shapes shape-two"
-        />
+        /> */}
       </div>
       {/* <!-- /.feedback-section-six --> */}
 
@@ -277,13 +277,13 @@ const AgencyMinimal = () => {
           <div className="row">
             <div className="col-xxl-11 m-auto">
               <div className="inner-content">
-                <img
+                {/* <img
                   src={
                     require("../../assets/images/shape/shape_20.svg").default
                   }
                   alt="shape"
                   className="shapes shape-one"
-                />
+                /> */}
                 <AddressBlock />
               </div>
               {/* <!-- /.inner-content --> */}
@@ -348,14 +348,14 @@ const AgencyMinimal = () => {
                           />
                         </Link>
                       </div>
-                      <img
+                      {/* <img
                         src={
                           require("../../assets/images/shape/shape_21.svg")
                             .default
                         }
                         alt="shape"
                         className="shape mt-15 d-none d-md-block"
-                      />
+                      /> */}
                     </div>
                     {/* End .col */}
 

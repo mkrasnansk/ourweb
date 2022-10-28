@@ -44,11 +44,11 @@ const PhotographerPortfolio = () => {
         <Hero />
         {/* <!-- /.banner-intro --> */}
 
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_57.svg").default}
           alt="shape"
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.hero-banner-eleven --> */}
 
@@ -74,11 +74,11 @@ const PhotographerPortfolio = () => {
             width="26"
           />
         </a>
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_58.svg").default}
           alt="shape"
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.portfolio-gallery-one --> */}
 
@@ -103,11 +103,11 @@ const PhotographerPortfolio = () => {
         <div className="container">
           <FancyTextBlock />
         </div>
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_60.svg").default}
           alt=""
           className="shapes shape-two"
-        />
+        /> */}
       </div>
       {/* <!-- /.vcamp-text-block-sixteen --> */}
 
@@ -147,11 +147,11 @@ const PhotographerPortfolio = () => {
           </div>
         </div>
         {/* <!-- /.main-wrapper --> */}
-        <img
+        {/* <img
           src="images/shape/shape_61.svg"
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.portfolio-gallery-two --> */}
 

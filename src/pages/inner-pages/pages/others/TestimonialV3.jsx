@@ -77,11 +77,11 @@ const TestimonialV3 = () => {
           {/* <!-- /.row --> */}
         </div>
         {/* <!-- /.container --> */}
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_38.svg").default}
           alt=""
           className="shapes shape-four"
-        />
+        /> */}
       </div>
       {/* <!-- /.feedback-section-ten --> */}
 
@@ -92,13 +92,13 @@ const TestimonialV3 = () => {
         --> */}
       <div className="fancy-banner-four mb-70 lg-mb-40 sm-mb-60">
         <div className="container position-relative">
-          <img
+          {/* <img
             src={
               require("../../../../assets/images/shape/shape_41.svg").default
             }
             alt="shape"
             className="shapes shape-one"
-          />
+          /> */}
           <div className="bg-wrapper">
             <div className="col-xl-10 col-md-11 m-auto">
               <div className="row">

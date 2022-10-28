@@ -92,13 +92,13 @@ const TestimonialV1 = () => {
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={
                 require("../../../../assets/images/shape/shape_08.svg").default
               }
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>

@@ -37,11 +37,11 @@ const ServiceV1 = () => {
         ============================================== 
         --> */}
       <div className="inside-hero-three bg-color">
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_35.svg").default}
           alt="shpae"
           className="shapes shape-one"
-        />
+        /> */}
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -107,7 +107,7 @@ const ServiceV1 = () => {
         </div>
         {/* <!-- /.box-layout --> */}
 
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_36.svg").default}
           alt="shapes"
           className="shapes shape-one"
@@ -116,7 +116,7 @@ const ServiceV1 = () => {
           src={require("../../../../assets/images/shape/shape_37.svg").default}
           alt="shapes"
           className="shapes shape-two"
-        />
+        /> */}
       </div>
       {/* <!-- /.vcamp-feature-section-seven --> */}
 
@@ -129,13 +129,13 @@ const ServiceV1 = () => {
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={
                 require("../../../../assets/images/shape/shape_08.svg").default
               }
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>

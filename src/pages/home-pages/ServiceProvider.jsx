@@ -63,11 +63,11 @@ const ServiceProvider = () => {
         <div className="container">
           <TextBlock />
         </div>
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_22.svg").default}
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.vcamp-text-block-three --> */}
 
@@ -124,11 +124,11 @@ const ServiceProvider = () => {
           {/* <!-- /.case_slider_one --> */}
         </div>
         {/* <!-- /.slider-wrapper --> */}
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_23.svg").default}
           alt="shape"
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.case-study-one --> */}
 

@@ -60,13 +60,13 @@ const AboutUsV1 = () => {
         </div>
         {/* End TextBlockOne */}
         <div className="position-relative">
-          <img
+          {/* <img
             src={
               require("../../../../assets/images/shape/shape_05.svg").default
             }
             alt="shape"
             className="shapes shape-two"
-          />
+          /> */}
         </div>
       </div>
       {/* <!-- /.vcamp-text-block-one --> */}

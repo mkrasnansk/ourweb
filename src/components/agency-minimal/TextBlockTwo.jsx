@@ -30,11 +30,7 @@ const TextBlockTwo = () => {
       <div className="col-xxl-6 col-lg-5" data-aos="fade-up">
         <div className="img-container position-relative">
           <img src={heroImg} alt="hero" className="ceo-avatar" />
-          <img
-            src={require("../../assets/images/shape/shape_16.svg").default}
-            alt="shape"
-            className="shapes shape-one"
-          />
+         
           <div className="quote-wrapper">
             <img
               src={require("../../assets/images/icon/icon_10.svg").default}

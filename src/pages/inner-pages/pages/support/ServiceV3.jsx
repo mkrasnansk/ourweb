@@ -46,11 +46,11 @@ const ServiceV3 = () => {
           <h2 className="page-title">Solutions</h2>
           <p>We’re empowering WordPress to do great things together</p>
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_24.svg").default}
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.inside-hero-two --> */}
 
@@ -114,20 +114,20 @@ const ServiceV3 = () => {
             </div>
           </div>
           {/* <!-- /.box-layout --> */}
-          <img
+          {/* <img
             src={
               require("../../../../assets/images/shape/shape_39.svg").default
             }
             alt="shape"
             className="shapes shape-three"
-          />
-          <img
+          /> */}
+          {/* <img
             src={
               require("../../../../assets/images/shape/shape_39.svg").default
             }
             alt="shape"
             className="shapes shape-two"
-          />
+          /> */}
         </div>
       </div>
       {/* <!-- /.vcamp-feature-section-seven --> */}
@@ -141,13 +141,13 @@ const ServiceV3 = () => {
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={
                 require("../../../../assets/images/shape/shape_08.svg").default
               }
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>
@@ -218,14 +218,14 @@ const ServiceV3 = () => {
                         />
                       </Link>
                     </div>
-                    <img
+                    {/* <img
                       src={
                         require("../../../../assets/images/shape/shape_21.svg")
                           .default
                       }
                       alt="shape"
                       className="shape mt-15 d-none d-md-block"
-                    />
+                    /> */}
                   </div>
                   {/* End .col */}
 

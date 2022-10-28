@@ -9,10 +9,10 @@ const TextBlock = () => {
             We Invest in{" "}
             <span>
               Founders.
-              <img
+              {/* <img
                 src={require("../../assets/images/shape/shape_54.svg").default}
                 alt=""
-              />
+              /> */}
             </span>
           </h2>
         </div>

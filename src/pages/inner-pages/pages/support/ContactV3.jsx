@@ -47,11 +47,11 @@ const ContactV3 = () => {
           <h2 className="page-title">Contact Us</h2>
           <p>Get our all info and also can message us directly from here</p>
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_24.svg").default}
           alt="shape"
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.inside-hero-seven --> */}
 

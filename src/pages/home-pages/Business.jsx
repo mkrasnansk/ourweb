@@ -58,11 +58,11 @@ const Business = () => {
 			--> */}
       <div className="vcamp-feature-section-one box-layout mt-75">
         <div className="bg-wrapper">
-          <img
+          {/* <img
             src={require("../../assets/images/shape/shape_01.svg").default}
             alt="shape"
             className="shapes shape-one"
-          />
+          /> */}
           <div className="container">
             <div className="row">
               <div className="col-xxl-4 col-lg-5" data-aos="fade-right">
@@ -111,11 +111,11 @@ const Business = () => {
         </div>
         {/* End TextBlockOne */}
         <div className="position-relative">
-          <img
+          {/* <img
             src={require("../../assets/images/shape/shape_05.svg").default}
             alt="shape"
             className="shapes shape-two"
-          />
+          /> */}
         </div>
       </div>
       {/* <!-- /.vcamp-text-block-one --> */}

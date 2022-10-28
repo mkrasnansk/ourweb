@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import shapeImg from "../../assets/images/shape/shape_12.svg";
 import ContactMeta from "../../components/common/contact/ContactMeta";
 import FromStyleOne from "../../components/common/contact/FromStyleOne";
 import CopyrightFooter from "../../components/common/footer/CopyrightFooter";
@@ -106,11 +105,11 @@ const CreativeAgency = () => {
 			=====================================================
 			--> */}
       <div className="feedback-section-three dark-bg mt-110 lg-mt-70">
-        <img
+        {/* <img
           src="images/shape/shape_06.svg"
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
         <div className="inner-content d-lg-flex align-items-center clearfix">
           <div className="text-wrapper">
             <div className="title-style-one white-vr">
@@ -153,7 +152,7 @@ const CreativeAgency = () => {
 			=====================================================
 			--> */}
       <div className="feedback-section-four mt-130 lg-mt-80 sm-mt-40">
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_09.svg").default}
           alt="shape"
           className="shapes shape-two"
@@ -167,16 +166,16 @@ const CreativeAgency = () => {
           src={require("../../assets/images/shape/shape_11.svg").default}
           alt="shape"
           className="shapes shape-four"
-        />
+        /> */}
 
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={require("../../assets/images/shape/shape_08.svg").default}
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>
@@ -223,11 +222,11 @@ const CreativeAgency = () => {
 			=====================================================
 			--> */}
       <div className="partner-section-two pt-180 mb-200 lg-pt-50 lg-mb-100">
-        <img
+        {/* <img
           src={require("../../assets/images/shape/shape_13.svg").default}
           alt="shape"
           className="shapes shape-one"
-        />
+        /> */}
         <div className="container">
           <div className="row">
             <div className="col-xxl-7 col-xl-8 col-lg-6 col-md-8 col-sm-10 m-auto">
@@ -300,14 +299,14 @@ const CreativeAgency = () => {
                           />
                         </Link>
                       </div>
-                      <img
+                      {/* <img
                         src={
                           require("../../assets/images/shape/shape_14.svg")
                             .default
                         }
                         alt="shape"
                         className="shape mt-15 d-none d-md-block"
-                      />
+                      /> */}
                     </div>
                     {/* End .col */}
 

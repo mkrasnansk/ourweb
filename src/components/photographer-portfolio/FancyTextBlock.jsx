@@ -38,11 +38,11 @@ const FancyTextBlock = () => {
       <div className="col-lg-5" data-aos="fade-right">
         <div className="img-wrapper">
           <img src={sticker} alt="" className="brand-logo" />
-          <img
+          {/* <img
             src={require("../../assets/images/shape/shape_59.svg").default}
             alt="shape"
             className="shapes shape-one"
-          />
+          /> */}
           <div className="img-meta">
             <img src={heroImg} alt="media" />
           </div>

@@ -5,8 +5,6 @@ import img3 from "../../assets/images/media/img_124.png";
 import img4 from "../../assets/images/media/img_125.png";
 import img5 from "../../assets/images/media/img_126.png";
 import img6 from "../../assets/images/media/img_127.png";
-import img7 from "../../assets/images/shape/shape_69.svg";
-import img8 from "../../assets/images/shape/shape_70.svg";
 
 const TestimonialGaller = () => {
   return (
@@ -17,8 +15,6 @@ const TestimonialGaller = () => {
       <img src={img4} alt="" className="shapes shape_4" />
       <img src={img5} alt="" className="shapes shape_5" />
       <img src={img6} alt="" className="shapes shape_6" />
-      <img src={img7} alt="" className="shapes shape_7" />
-      <img src={img8} alt="" className="shapes shape_8" />
     </>
   );
 };

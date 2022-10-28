@@ -34,7 +34,7 @@ const Header = () => {
           <div className="logo">
             <Link to="/">
               <img
-                src={require("../../assets/images/logo/vCamp_08.svg").default}
+                src={require("../../assets/images/svg/logolike.svg").default}
                 alt="brand"
               />
             </Link>

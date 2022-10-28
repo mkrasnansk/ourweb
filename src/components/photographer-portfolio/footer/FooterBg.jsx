@@ -3,7 +3,6 @@ import img1 from "../../../assets/images/media/img_117.jpg";
 import img2 from "../../../assets/images/media/img_118.jpg";
 import img3 from "../../../assets/images/media/img_119.jpg";
 import img4 from "../../../assets/images/media/img_120.jpg";
-import img5 from "../../../assets/images/shape/shape_62.svg";
 
 const FooterBg = () => {
   return (
@@ -34,7 +33,6 @@ const FooterBg = () => {
         className="shapes shape-four"
         data-aos="fade-up"
       />
-      <img src={img5} alt="shape" className="shapes shape-five" />
     </>
   );
 };

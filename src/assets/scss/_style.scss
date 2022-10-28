@@ -173,7 +173,7 @@
 }
 :root {
   --text-color: #757575;
-  --heading: #1b4d89;
+  --heading: #339999;
   --red-one: #f9e45b;
   --red-two: #6bd784;
   --orange-one: #0d8217;
@@ -499,7 +499,6 @@ h6 {
   position: absolute;
   left: 0;
   top: 10px;
-  background: url(../images/shape/shape_52.svg) no-repeat center;
   background-size: contain;
   z-index: 1;
 }
@@ -2888,7 +2887,6 @@ body .theme-btn-eighteen:hover:before {
   color: #fff;
 }
 .vcamp-footer-one.dark-bg.image-bg {
-  background-image: url(../images/shape/bg-1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2924,7 +2922,6 @@ body .theme-btn-eighteen:hover:before {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-two {
-  background: url(../images/shape/shape_02.svg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -3192,7 +3189,6 @@ body .theme-btn-eighteen:hover:before {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feedback Slider Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .feedback-section-four {
-  background: url(../images/shape/shape_07.svg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -3401,7 +3397,6 @@ body .theme-btn-eighteen:hover:before {
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-three {
   background-color: #161616;
-  background-image: url(../images/shape/bg-1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5561,7 +5556,6 @@ body .theme-btn-eighteen:hover:before {
   text-align: center;
 }
 .pricing-table-area-one .pr-table-wrapper.most-popular:after {
-  content: url(../images/shape/popular-tag.svg);
   position: absolute;
   top: -97px;
   right: -87px;
@@ -5675,7 +5669,6 @@ body .theme-btn-eighteen:hover:before {
   content: url(../images/icon/icon_54.svg);
 }
 .pricing-section-one.dark-bg .pr-table-wrapper.most-popular:after {
-  content: url(../images/shape/popular-tag-w.svg);
 }
 .pricing-section-one.dark-bg .pr-table-wrapper.active {
   background: #fff;
@@ -7300,7 +7293,6 @@ body .theme-btn-eighteen:hover:before {
   position: absolute;
   left: 0;
   top: 10px;
-  background: url(../images/shape/shape_52.svg) no-repeat center;
   background-size: contain;
   z-index: 1;
 }
@@ -12010,7 +12002,6 @@ body .theme-btn-eighteen:hover:before {
   position: relative;
 }
 .hero-banner-twelve .hero-heading:before {
-  content: url(../images/shape/shape_64.svg);
   position: absolute;
   left: -22px;
   top: -68px;
@@ -12170,7 +12161,7 @@ body .theme-btn-eighteen:hover:before {
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-thirteen {
   position: relative;
-  background: url(../images/shape/bg-3.png) no-repeat center;
+  // background: url(../images/shape/bg-3.png) no-repeat center;
   background-size: cover;
   padding: 225px 0 35px;
   color: #fff;
@@ -12525,7 +12516,7 @@ body .theme-btn-eighteen:hover:before {
 /*^^^^^^^^^^^^^^^^^^^^^ Feedback Section Fourteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .feedback-section-fourteen {
   position: relative;
-  background: url(../images/shape/bg-3.png) no-repeat center;
+  // background: url(../images/shape/bg-3.png) no-repeat center;
   background-size: cover;
   padding: 225px 0 85px;
   margin-top: -135px;
@@ -12842,7 +12833,7 @@ body .theme-btn-eighteen:hover:before {
   position: relative;
 }
 .hero-banner-fourteen .hero-heading:before {
-  content: url(../images/shape/shape_64.svg);
+  // content: url(../images/shape/shape_64.svg);
   position: absolute;
   left: -22px;
   top: -80px;

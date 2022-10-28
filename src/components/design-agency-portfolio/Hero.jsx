@@ -31,11 +31,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <img
+          {/* <img
             src={require("../../assets/images/shape/shape_75.svg").default}
             alt=""
             className="shape-one"
-          />
+          /> */}
         </div>
       </div>
     </div>

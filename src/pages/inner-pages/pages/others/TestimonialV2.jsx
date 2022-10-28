@@ -45,11 +45,11 @@ const TestimonialV2 = () => {
           <h2 className="page-title">Client Feedback</h2>
           <p>We’re empowering WordPress to do great things together</p>
         </div>
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_24.svg").default}
           alt=""
           className="shapes shape-one"
-        />
+        /> */}
       </div>
       {/* <!-- /.inside-hero-two --> */}
 
@@ -82,7 +82,7 @@ const TestimonialV2 = () => {
 			=====================================================
 			--> */}
       <div className="feedback-section-four  mt-170 lg-mt-120">
-        <img
+        {/* <img
           src={require("../../../../assets/images/shape/shape_09.svg").default}
           alt="shape"
           className="shapes shape-two"
@@ -96,18 +96,18 @@ const TestimonialV2 = () => {
           src={require("../../../../assets/images/shape/shape_11.svg").default}
           alt="shape"
           className="shapes shape-four"
-        />
+        /> */}
 
         <div className="container">
           <div className="feedback_slider_four position-relative">
             <FeedbackSliderFour />
-            <img
+            {/* <img
               src={
                 require("../../../../assets/images/shape/shape_08.svg").default
               }
               alt="shape"
               className="shapes shape-one bottom-0"
-            />
+            /> */}
           </div>
           {/* <!-- /.feedback_slider_four --> */}
         </div>
@@ -178,14 +178,14 @@ const TestimonialV2 = () => {
                         />
                       </Link>
                     </div>
-                    <img
+                    {/* <img
                       src={
                         require("../../../../assets/images/shape/shape_21.svg")
                           .default
                       }
                       alt="shape"
                       className="shape mt-15 d-none d-md-block"
-                    />
+                    /> */}
                   </div>
                   {/* End .col */}
 

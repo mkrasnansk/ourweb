@@ -222,10 +222,10 @@ const MarketingAgency = () => {
         {/* <!-- /.container --> */}
 
         <div className="rating-box">
-          <img
+          {/* <img
             src={require("../../assets/images/shape/shape_72.svg").default}
             alt="shape"
-          />
+          /> */}
           <div className="rate font-zen">
             9.3 <br />
             <span>Rating</span>

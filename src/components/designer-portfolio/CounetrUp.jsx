@@ -49,11 +49,7 @@ const CounterUp = () => {
           key={val.id}
         >
           <div className="counter-block-one text-center mb-45">
-            <img
-              src={require("../../assets/images/shape/shape_65.svg").default}
-              alt=""
-              className="m-auto"
-            />
+         
             <div className="main-count text-lg fw-light pt-10 font-recoleta">
               <span className="counter">
                 <CountUp

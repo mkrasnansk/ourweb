@@ -147,13 +147,13 @@ const UiBlogPost = () => {
             <h2 className="title">
               <span>
                 Company News{" "}
-                <img
+                {/* <img
                   src={
                     require("../../../../assets/images/shape/shape_56.svg")
                       .default
                   }
                   alt="shape"
-                />
+                /> */}
               </span>
             </h2>
           </div>
