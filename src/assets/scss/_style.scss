@@ -174,7 +174,7 @@
 :root {
   --text-color: #757575;
   --heading: #339999;
-  --red-one: #f9e45b;
+  --red-one: #494949;
   --red-two: #6bd784;
   --orange-one: #0d8217;
   --deep-cyan: #ebf1ee;
@@ -6817,8 +6817,7 @@ body .theme-btn-eighteen:hover:before {
   width: 100%;
   height: 60px;
   font-size: 17px;
-  border: 2px solid #000;
-  border-radius: 8px;
+  border: 1px solid var(--heading);
   padding: 0 52px 0 20px;
   background: transparent;
 }
@@ -6894,24 +6893,24 @@ body .theme-btn-eighteen:hover:before {
 }
 .user-data-form .agreement-checkbox label:before {
   content: "";
-  width: 13px;
-  height: 13px;
-  line-height: 11px;
-  border-radius: 2px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  font-size: 10px;
-  text-align: center;
+  width: 18px;
+  height: 18px;
+  line-height: 14px;
+  border-radius: 4px;
+  border: 2px solid var(--heading);
+  font-size: 16px;
+  text-align: bottom;
   position: absolute;
   left: 0;
-  top: 3px;
-  transition: all 0.1s ease-in-out;
+  top: 0px;
+  transition: all 0.2s ease-in-out;
 }
 .user-data-form .agreement-checkbox input[type="checkbox"]:checked + label:before {
   content: "\f272";
   font-family: bootstrap-icons !important;
-  background: #000;
+  background: var(--heading);
   color: #fff;
-  border-color: #000;
+  border-color:var(--heading);
 }
 .user-data-form .agreement-checkbox a {
   position: relative;
