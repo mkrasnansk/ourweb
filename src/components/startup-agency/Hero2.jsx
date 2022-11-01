@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import SubscribeForm from "../common/form/SubscribeForm";
-import Popup from "../common/video-popup/Popup";
-import img1 from "../../assets/images/assets/ils_04.png";
 import LoginForm from "../common/form/LoginForm";
 import SignupForm from "../common/form/SignupForm";
-import PopupTwo from "../common/video-popup/PopupTwo";
-import PopupThree from "../common/video-popup/PopupThree";
+import Popup from "../common/video-popup/Popup";
 
 const Hero2 = () => {
    const [singOrLogIn, setSingOrLogIn] = useState(true);
@@ -27,17 +23,19 @@ const Hero2 = () => {
                <div className="col-12">
                   <p className="term-text">
                      {textIn.questText}
-                     <a href="javascript:void(0)" onClick={handleClickChangeLogIn}>
+                     <Link to={void 0} onClick={handleClickChangeLogIn}>
                         {textIn.logText}
-                     </a>
+                     </Link>
                   </p>
                </div>
             </div>
             <div className="row">
                <div className="col-lg-6 ">{singOrLogIn ? <LoginForm textIn={textIn} /> : <SignupForm textIn={textIn} />}</div>
                <div className="col-lg-5 ms-auto">
-                  <Popup />
-                  <h2 className="hero-heading">We are there for you.</h2>
+                  <div className="d-flex align-items-center">
+                     <h2 className="hero-heading">We are there for you.</h2>
+                     <Popup />
+                  </div>
                   <p className="hero-sub-heading text-lg">We are helping client to create Business with our talented expert.</p>
                </div>
             </div>

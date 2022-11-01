@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../../../../assets/images/assets/ils_06.png";
-import SignupForm from "../../../../components/common/form/SignupForm";
 import Seo from "../../../../components/common/seo/Seo";
 
 const SignUp = () => {

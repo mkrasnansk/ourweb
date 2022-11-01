@@ -1,21 +1,20 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 // All Home Version
 import ScrollTopBehaviour from "../components/elements/ScrollTopBehaviour";
-import CreativeAgency from "../pages/home-pages/CreativeAgency";
-import Business from "../pages/home-pages/Business";
+import ComingSoon from "../pages/ComingSoon";
 import AgencyMinimal from "../pages/home-pages/AgencyMinimal";
+import Business from "../pages/home-pages/Business";
+import ConsultingAgency from "../pages/home-pages/ConsultingAgency";
+import DesignAgencyPortfolio from "../pages/home-pages/DesignAgencyPortfolio";
+import DesignerPortfolio from "../pages/home-pages/DesignerPortfolio";
+import MarketingAgency from "../pages/home-pages/MarketingAgency";
+import PhotographerPortfolio from "../pages/home-pages/PhotographerPortfolio";
 import ServiceProvider from "../pages/home-pages/ServiceProvider";
 import Startup from "../pages/home-pages/Startup";
 import StartupAgency from "../pages/home-pages/StartupAgency";
-import ConsultingAgency from "../pages/home-pages/ConsultingAgency";
-import PhotographerPortfolio from "../pages/home-pages/PhotographerPortfolio";
-import DesignerPortfolio from "../pages/home-pages/DesignerPortfolio";
-import MarketingAgency from "../pages/home-pages/MarketingAgency";
-import DesignAgencyPortfolio from "../pages/home-pages/DesignAgencyPortfolio";
 import NotFound from "../pages/NotFound";
-import ComingSoon from "../pages/ComingSoon";
 
 // All Elements  dropdown Heading inner pages
 import UiHeaderV1 from "../pages/inner-pages/elements/header/UiHeaderV1";
@@ -27,59 +26,62 @@ import UiHeaderV6 from "../pages/inner-pages/elements/header/UiHeaderV6";
 import UiHeaderV7 from "../pages/inner-pages/elements/header/UiHeaderV7";
 
 // All Elements  dropdown Menu inner pages
-import UiMenuV1 from "../pages/inner-pages/elements/basic/UiMenuV1";
-import UiMenuV2 from "../pages/inner-pages/elements/basic/UiMenuV2";
-import UiMenuV3 from "../pages/inner-pages/elements/basic/UiMenuV3";
 import UiBlogPost from "../pages/inner-pages/elements/basic/UiBlogPost";
 import UiButtons from "../pages/inner-pages/elements/basic/UiButtons";
 import UiContact from "../pages/inner-pages/elements/basic/UiContact";
+import UiMenuV1 from "../pages/inner-pages/elements/basic/UiMenuV1";
+import UiMenuV2 from "../pages/inner-pages/elements/basic/UiMenuV2";
+import UiMenuV3 from "../pages/inner-pages/elements/basic/UiMenuV3";
 
 // All Blog dropdown inner pages
+import BlogDetailsV1 from "../pages/inner-pages/blog/blog-details/BlogDetailsV1";
+import BlogDetailsV2 from "../pages/inner-pages/blog/blog-details/BlogDetailsV2";
+import BlogDetailsV3 from "../pages/inner-pages/blog/blog-details/BlogDetailsV3";
+import DynamicBlogDetails from "../pages/inner-pages/blog/blog-details/DynamicBlogDetails";
 import BlogV1 from "../pages/inner-pages/blog/layout/BlogV1";
 import BlogV2 from "../pages/inner-pages/blog/layout/BlogV2";
 import BlogV3 from "../pages/inner-pages/blog/layout/BlogV3";
 import BlogV4 from "../pages/inner-pages/blog/layout/BlogV4";
-import BlogDetailsV1 from "../pages/inner-pages/blog/blog-details/BlogDetailsV1";
-import BlogDetailsV2 from "../pages/inner-pages/blog/blog-details/BlogDetailsV2";
-import BlogDetailsV3 from "../pages/inner-pages/blog/blog-details/BlogDetailsV3";
 import DynamicProductDetails from "../pages/inner-pages/shop/shop-elements/DynamicProductDetails";
-import DynamicBlogDetails from "../pages/inner-pages/blog/blog-details/DynamicBlogDetails";
 
 // All Pages dropdown inner pages
 import AboutUsV1 from "../pages/inner-pages/pages/essentials/AboutUsV1";
 import AboutUsV2 from "../pages/inner-pages/pages/essentials/AboutUsV2";
-import TeamV1 from "../pages/inner-pages/pages/essentials/TeamV1";
-import TeamV2 from "../pages/inner-pages/pages/essentials/TeamV2";
 import PricingV1 from "../pages/inner-pages/pages/essentials/PricingV1";
 import PricingV2 from "../pages/inner-pages/pages/essentials/PricingV2";
+import TeamV1 from "../pages/inner-pages/pages/essentials/TeamV1";
+import TeamV2 from "../pages/inner-pages/pages/essentials/TeamV2";
+import FaqV1 from "../pages/inner-pages/pages/others/FaqV1";
+import FaqV2 from "../pages/inner-pages/pages/others/FaqV2";
+import TestimonialV1 from "../pages/inner-pages/pages/others/TestimonialV1";
+import TestimonialV2 from "../pages/inner-pages/pages/others/TestimonialV2";
+import TestimonialV3 from "../pages/inner-pages/pages/others/TestimonialV3";
 import ContactV1 from "../pages/inner-pages/pages/support/ContactV1";
 import ContactV2 from "../pages/inner-pages/pages/support/ContactV2";
 import ContactV3 from "../pages/inner-pages/pages/support/ContactV3";
 import ServiceV1 from "../pages/inner-pages/pages/support/ServiceV1";
 import ServiceV2 from "../pages/inner-pages/pages/support/ServiceV2";
 import ServiceV3 from "../pages/inner-pages/pages/support/ServiceV3";
-import TestimonialV1 from "../pages/inner-pages/pages/others/TestimonialV1";
-import TestimonialV2 from "../pages/inner-pages/pages/others/TestimonialV2";
-import TestimonialV3 from "../pages/inner-pages/pages/others/TestimonialV3";
-import FaqV1 from "../pages/inner-pages/pages/others/FaqV1";
-import FaqV2 from "../pages/inner-pages/pages/others/FaqV2";
 
 // All Shop main and inner pages
 import ShopStandard from "../pages/home-pages/ShopStandard";
-import GridLayout from "../pages/inner-pages/shop/layout/GridLayout";
-import GridWithSidebar from "../pages/inner-pages/shop/layout/GridWithSidebar";
+import UiMenuV4 from "../pages/inner-pages/elements/basic/UiMenuV4";
 import DarkGridWithSidebar from "../pages/inner-pages/shop/layout/DarkGridWithSidebar";
+import GridLayout from "../pages/inner-pages/shop/layout/GridLayout";
 import GridLayoutFullWidth from "../pages/inner-pages/shop/layout/GridLayoutFullWidth";
-import ProductDetails from "../pages/inner-pages/shop/shop-elements/ProductDetails";
+import GridWithSidebar from "../pages/inner-pages/shop/layout/GridWithSidebar";
 import Cart from "../pages/inner-pages/shop/shop-elements/Cart";
-import WishList from "../pages/inner-pages/shop/shop-elements/WishList";
 import CheckOut from "../pages/inner-pages/shop/shop-elements/CheckOut";
+import ProductDetails from "../pages/inner-pages/shop/shop-elements/ProductDetails";
 import SignIn from "../pages/inner-pages/shop/shop-elements/SignIn";
 import SignUp from "../pages/inner-pages/shop/shop-elements/SignUp";
-import UiMenuV4 from "../pages/inner-pages/elements/basic/UiMenuV4";
+import WishList from "../pages/inner-pages/shop/shop-elements/WishList";
 
 // All Portfolio main and inner pages
 import PortfolioV1 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV1";
+import PortfolioV10 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV10";
+import PortfolioV11 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV11";
+import PortfolioV12 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV12";
 import PortfolioV2 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV2";
 import PortfolioV3 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV3";
 import PortfolioV4 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV4";
@@ -88,9 +90,7 @@ import PortfolioV6 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV6
 import PortfolioV7 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV7";
 import PortfolioV8 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV8";
 import PortfolioV9 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV9";
-import PortfolioV10 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV10";
-import PortfolioV11 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV11";
-import PortfolioV12 from "../pages/inner-pages/portfolio/boxed-layout/PortfolioV12";
+import PortfolioV22 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV22";
 import PortfolioV13 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV13";
 import PortfolioV14 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV14";
 import PortfolioV15 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV15";
@@ -100,14 +100,7 @@ import PortfolioV18 from "../pages/inner-pages/portfolio/fullwidth-layout/Portfo
 import PortfolioV19 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV19";
 import PortfolioV20 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV20";
 import PortfolioV21 from "../pages/inner-pages/portfolio/fullwidth-layout/PortfolioV21";
-import PortfolioV22 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV22";
 
-import PortfolioDetailsV1 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV1";
-import PortfolioDetailsV2 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV2";
-import PortfolioDetailsV3 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV3";
-import PortfolioDetailsV4 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV4";
-import PortfolioDetailsV5 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV5";
-import PortfolioDetailsV6 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV6";
 import PortfolioV23 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV23";
 import PortfolioV24 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV24";
 import PortfolioV25 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV25";
@@ -116,6 +109,12 @@ import PortfolioV27 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV2
 import PortfolioV28 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV28";
 import PortfolioV29 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV29";
 import PortfolioV30 from "../pages/inner-pages/portfolio/dark-layout/PortfolioV30";
+import PortfolioDetailsV1 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV1";
+import PortfolioDetailsV2 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV2";
+import PortfolioDetailsV3 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV3";
+import PortfolioDetailsV4 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV4";
+import PortfolioDetailsV5 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV5";
+import PortfolioDetailsV6 from "../pages/inner-pages/portfolio/single-portfolio/PortfolioDetailsV6";
 
 const AllRoutes = () => {
   return (
@@ -123,7 +122,7 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         {/* All home */}
-        <Route path="/" element={<CreativeAgency />} />
+        <Route path="/" element={<StartupAgency />} />
         <Route path="/business" element={<Business />} />
         <Route path="/agency-minimal" element={<AgencyMinimal />} />
         <Route path="/service-provider" element={<ServiceProvider />} />

@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../../assets/images/assets/ils_04.png";
 import Header from "../../components/business/Header";
-import Sidebar from "../../components/common/header/sidebar/Sidebar";
-import TextBlockTitle from "../../components/service-provider/TextBlockTitle";
-import FeatureSection from "../../components/creative-agency/FeatureSection";
-import Portfolio from "../../components/startup/Portfolio";
-import Hero from "../../components/startup/Hero";
-import AccordionOne from "../../components/service-provider/AccordionOne";
-import Popup from "../../components/common/video-popup/Popup";
-import Counter from "../../components/service-provider/Counter";
-import FeedbackSliderFour from "../../components/creative-agency/FeedbackSliderFour";
-import Blog from "../../components/startup/Blog";
-import FancyBanner from "../../components/startup/FancyBanner";
 import CopyrightFooter from "../../components/common/footer/CopyrightFooter";
 import FooterMenuListTwo from "../../components/common/footer/FooterMenuListTwo";
+import Sidebar from "../../components/common/header/sidebar/Sidebar";
 import Seo from "../../components/common/seo/Seo";
+import Popup from "../../components/common/video-popup/Popup";
+import FeatureSection from "../../components/creative-agency/FeatureSection";
+import FeedbackSliderFour from "../../components/creative-agency/FeedbackSliderFour";
+import AccordionOne from "../../components/service-provider/AccordionOne";
+import Counter from "../../components/service-provider/Counter";
+import TextBlockTitle from "../../components/service-provider/TextBlockTitle";
+import Blog from "../../components/startup/Blog";
+import FancyBanner from "../../components/startup/FancyBanner";
+import Hero from "../../components/startup/Hero";
+import Portfolio from "../../components/startup/Portfolio";
 
 const Startup = () => {
   return (

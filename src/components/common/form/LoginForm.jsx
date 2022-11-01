@@ -34,7 +34,7 @@ const LoginForm = (props) => {
                         <input type="checkbox" id="remember"  />
                         <label htmlFor="remember">{props.textIn.keepText}</label>
                      </div>
-                     <a href="javascript:void(0)">Forget Password?</a>
+                     <Link to={void(0)}>Forget Password?</Link>
                   </div>
                   {/* <!-- /.agreement-checkbox --> */}
                </div>

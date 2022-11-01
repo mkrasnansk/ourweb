@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../../assets/images/assets/ils_11.png";
 import img2 from "../../assets/images/assets/ils_12.png";
 import CopyrightFooter from "../../components/common/footer/CopyrightFooter";
 import FooterMenuListTwo from "../../components/common/footer/FooterMenuListTwo";
 import Seo from "../../components/common/seo/Seo";
 import Blog from "../../components/startup-agency/Blog";
-import Feature from "../../components/startup-agency/Feature";
 import Header from "../../components/startup-agency/Header";
 import Hero from "../../components/startup-agency/Hero";
 import Hero2 from "../../components/startup-agency/Hero2";
@@ -17,8 +15,7 @@ import TextBlockList from "../../components/startup-agency/TextBlockList";
 const StartupAgency = () => {
    return (
       <div className="main-page-wrapper">
-         <Seo title="Startup Agency" />
-
+         <Seo title="Owe" />
          <Header />
          <Hero />
          <TextBlock />
@@ -31,21 +28,19 @@ const StartupAgency = () => {
         Vcamp Text Block Eight
         ============================================== 
         --> */}
-         <div className="vcamp-text-block-eight dark-bg mt-180 lg-mt-120">
+         <div className="bg-deep-cyan vcamp-text-block-eight  vcamp-feature-section-nine pt-100 lg-pt-50 h-100">
             <div className="container">
+               <img className="d-none d-xl-block position-absolute   w-100 h-100  bottom-50  img-fluid" src={require("../../assets/images/svg/logohalf.svg").default} alt="brand" />
                <div className="row">
-                  <div className="col-xxl-6 col-lg-6 ms-auto">
+                  <div className="col-12 text-center">
                      <div className="text-wrapper">
-                        <h6>Over 250k+ Clients</h6>
-                        <h2>A company is product of quality, tact, & heart.</h2>
+                        <h2>Our creative company is product of quality, tact, & heart.</h2>
                      </div>
                      {/* <!-- /.text-wrapper --> */}
                   </div>
                </div>
             </div>
             {/* End .container */}
-
-            <img src={img1} alt="illustration" className="illustration shapes" />
          </div>
          {/* <!-- /.vcamp-text-block-eight --> */}
 
@@ -113,17 +108,7 @@ const StartupAgency = () => {
                   <div className="col-lg-9 m-auto">
                      <div className="title-style-seven text-center pb-20 lg-p0">
                         <h2 className="title">
-                           We’re our own Biggest{" "}
-                           <span>
-                              Investors{" "}
-                              {/* <img
-                      src={
-                        require("../../assets/images/shape/shape_53.svg")
-                          .default
-                      }
-                      alt=""
-                    /> */}
-                           </span>
+                           We love our work.
                         </h2>
                         <p>Our mission is to most aligned fund for funders at the seed stage. Everyone on the investment team has started a company.</p>
                      </div>
@@ -147,53 +132,16 @@ const StartupAgency = () => {
 
          {/* <!--
         =====================================================
-        Blog Section Six
-        =====================================================
-        --> */}
-         <div className="blog-section-six dark-bg mt-180 lg-mt-120" id="news">
-            <div className="container">
-               <div className="title-style-eight text-center white-vr mb-160 lg-mb-100 md-mb-40">
-                  <h2 className="title">
-                     <span>
-                        Company News{" "}
-                        {/* <img
-                  src={
-                    require("../../assets/images/shape/shape_56.svg").default
-                  }
-                  alt="shape"
-                /> */}
-                     </span>
-                  </h2>
-               </div>
-               {/* <!-- /.title-style-eight --> */}
-
-               <div className="row gx-xl-5">
-                  <Blog />
-               </div>
-               {/* End .row */}
-
-               <div className="text-center mt-110 lg-mt-80">
-                  <Link to="/blog-v1" className="theme-btn-ten">
-                     READ MORE
-                  </Link>
-               </div>
-               {/* End text-center */}
-            </div>
-         </div>
-         {/* <!-- /.blog-section-six --> */}
-
-         {/* <!--
-        =====================================================
         Footer
         =====================================================
         --> */}
          <footer className="vcamp-footer-two pt-150 lg-pt-100">
             <div className="container">
                <div className="row">
-                  <div className="col-xl-3 col-lg-2 mb-40">
+                  <div className="col-xl-3 col-lg-2 mb-40 text-center">
                      <div className="logo">
                         <Link to="/">
-                           <img src={require("../../assets/images/logo/vCamp_01.svg").default} alt="brand" />
+                           <img src={require("../../assets/images/svg/logosecondary.svg").default} alt="brand" />
                         </Link>
                      </div>
                   </div>

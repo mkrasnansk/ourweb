@@ -182,6 +182,9 @@
   --light-blue: #f1f7fd;
   --deep-blue: #ebf6ff;
 }
+.border-primary{
+  border-color: var(--heading) !important;
+}
 ::selection {
   background-color: #2a2a2a;
   color: #fff;
@@ -4387,7 +4390,7 @@ body .theme-btn-eighteen:hover:before {
 .vcamp-footer-two .footer-list a:hover,
 .vcamp-footer-two.dark-footer .footer-list a:hover {
   text-decoration: underline;
-  color: var(--red-two);
+  color: var(--heading);
 }
 .vcamp-footer-two .newsletter p {
   font-size: 19px;
@@ -4396,10 +4399,10 @@ body .theme-btn-eighteen:hover:before {
 }
 .vcamp-footer-two .newsletter p span {
   text-decoration: underline;
-  color: var(--red-two);
+  color: var(--heading);
 }
 .vcamp-footer-two .newsletter p span.color2 {
-  color: var(--red-one);
+  color: var(--heading);
 }
 .vcamp-footer-two .newsletter form {
   height: 70px;
@@ -4435,7 +4438,7 @@ body .theme-btn-eighteen:hover:before {
   bottom: 8px;
   width: 115px;
   border-radius: 8px;
-  background: var(--red-two);
+  background: var(--heading);
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -4443,10 +4446,10 @@ body .theme-btn-eighteen:hover:before {
   background: var(--heading);
 }
 .vcamp-footer-two .newsletter form button.color2-btn {
-  background: var(--red-one);
+  background: var(--heading);
 }
 .vcamp-footer-two .newsletter form button.dark-btn:hover {
-  background: var(--red-two);
+  background: var(--heading);
 }
 .vcamp-footer-two .newsletter .info {
   font-size: 14px;
@@ -4478,7 +4481,7 @@ body .theme-btn-eighteen:hover:before {
 }
 .vcamp-footer-two .bottom-footer .social-icon a:hover,
 .vcamp-footer-two.dark-footer .bottom-footer .social-icon a:hover {
-  color: var(--red-two);
+  color: var(--text-color);
 }
 .vcamp-footer-two.dark-footer .title {
   color: rgba(255, 255, 255, 0.5);

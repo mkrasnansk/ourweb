@@ -10,7 +10,7 @@ const Popup = () => {
             {/* End popup component */}
 
             <div className="d-flex justify-content-center" onClick={() => setOpen(true)} role="button">
-               <div className="d-flex justify-content-start border border-danger rounded-5 p-2">
+               <div className="d-flex justify-content-start border border-primary rounded-5 p-2">
                   <img className=" me-1" src={require("../../../assets/images/icon/icon_41.svg").default} alt="icon" />
                </div>
             </div>
