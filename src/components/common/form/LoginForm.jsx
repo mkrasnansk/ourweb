@@ -22,7 +22,7 @@ const LoginForm = (props) => {
                      <input type={password ? "password text" : "password"} placeholder="Enter Password" className="pass_log_id" required />
                      <span className="placeholder_icon">
                         <span className={password ? "passVicon eye-slash" : "passVicon"} onClick={passwordHandler}>
-                           <img  src={require("../../../assets/images/icon/icon_67.svg").default} alt="icon" />
+                           <img src={require("../../../assets/images/icon/icon_67.svg").default} alt="icon" />
                         </span>
                      </span>
                   </div>
@@ -31,16 +31,16 @@ const LoginForm = (props) => {
                <div className="col-12">
                   <div className="agreement-checkbox d-flex justify-content-between align-items-center">
                      <div>
-                        <input type="checkbox" id="remember"  />
+                        <input type="checkbox" id="remember" />
                         <label htmlFor="remember">{props.textIn.keepText}</label>
                      </div>
-                     <Link to={void(0)}>Forget Password?</Link>
+                     <Link to={void 0}>Forget Password?</Link>
                   </div>
                   {/* <!-- /.agreement-checkbox --> */}
                </div>
 
                <div className="col-12">
-                  <button className="theme-btn-nine w-100 mt-50 mb-50">{props.textIn.idText}</button>
+                  <button className="theme-btn-nine w-100 mt-50 mb-50">{props.textIn.idText ? props.textIn.idText : "Log in"}</button>
                </div>
             </div>
          </form>
