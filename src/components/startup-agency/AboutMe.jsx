@@ -4,7 +4,7 @@ import img2 from "../../assets/images/img/Charlie_face.jpg";
 
 export const AboutMe = () => {
    return (
-      <div className="vcamp-text-block-nine pt-180 pb-180 lg-pt-120 lg-pb-100" id="join-us">
+      <div className="vcamp-text-block-nine pt-180 pb-180 lg-pt-120 lg-pb-100">
          <div className="container">
             <div className="row">
                <div className="col-lg-6 col-md-8 col-sm-11">

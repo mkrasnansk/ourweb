@@ -19,8 +19,8 @@ const Header = () => {
   const menuContent = [
     { itemName: "About us", hrefId: "#about" },
     { itemName: "Join us", hrefId: "#join-us" },
-    { itemName: "Team", hrefId: "#team" },
-    { itemName: "News & Events", hrefId: "#news" },
+    { itemName: "Gallery", hrefId: "#gallery" },
+    { itemName: "Contact", hrefId: "#contact" },
   ];
 
   return (
@@ -55,7 +55,7 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse dark-style" id="navbarNav">
               <ScrollspyNav
-                scrollTargetIds={["about", "join-us", "team", "news"]}
+                scrollTargetIds={["about", "join-us", "gallery", "contact"]}
                 offset={0}
                 activeNavClass="active"
                 scrollDuration="100"

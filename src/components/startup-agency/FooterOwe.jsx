@@ -5,29 +5,33 @@ import FooterMenuListTwo from "../common/footer/FooterMenuListTwo";
 
 const FooterOwe = () => {
    return (
-         <footer className="vcamp-footer-two pt-150 lg-pt-100">
-            <div className="container">
-               <div className="row">
-                  <div className="col-xl-3 col-lg-2 mb-40 text-center">
-                     <div className="logo">
-                        <Link to="/">
-                           <img src={require("../../assets/images/svg/logosecondary.svg").default} alt="brand" />
-                        </Link>
+      <React.Fragment>
+         <div className="pt-1" id="contact">
+            <footer className="vcamp-footer-two pt-150 lg-pt-100">
+               <div className="container">
+                  <div className="row">
+                     <div className="col-xl-3 col-lg-2 mb-40 text-center">
+                        <div className="logo">
+                           <Link to="/">
+                              <img src={require("../../assets/images/svg/logosecondary.svg").default} alt="brand" />
+                           </Link>
+                        </div>
                      </div>
-                  </div>
                      <FooterMenuListTwo />
+                  </div>
+                  {/* End .row */}
                </div>
-               {/* End .row */}
-            </div>
-            {/* End .container */}
+               {/* End .container */}
 
-            <div className="container">
-               <div className="bottom-footer">
-                  <CopyrightFooter />
+               <div className="container">
+                  <div className="bottom-footer">
+                     <CopyrightFooter />
+                  </div>
                </div>
-            </div>
-            {/* End .container */}
-         </footer>
+               {/* End .container */}
+            </footer>
+         </div>
+      </React.Fragment>
    );
 };
 export default FooterOwe;
