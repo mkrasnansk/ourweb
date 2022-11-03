@@ -9,8 +9,8 @@ const FooterOwe = () => {
          <div className="pt-1" id="contact">
             <footer className="vcamp-footer-two pt-150 lg-pt-100">
                <div className="container">
-                  <div className="row">
-                     <div className="col-xl-3 col-lg-2 mb-40 text-center">
+                  <div className="row justify-content-center justify-content-md-start">
+                     <div className="col-xl-3 col-lg-2 mb-40 text-center text-lg-start">
                         <div className="logo">
                            <Link to="/">
                               <img src={require("../../assets/images/svg/logosecondary.svg").default} alt="brand" />

@@ -1,5 +1,6 @@
 import React from "react";
 import Seo from "../../components/common/seo/Seo";
+import AddressBlock from "../../components/creative-agency/AddressBlock";
 import { AboutMe } from "../../components/startup-agency/AboutMe";
 import FooterOwe from "../../components/startup-agency/FooterOwe";
 import Header from "../../components/startup-agency/Header";
@@ -7,7 +8,6 @@ import Hero from "../../components/startup-agency/Hero";
 import Hero2 from "../../components/startup-agency/Hero2";
 import { MiddleCgoal } from "../../components/startup-agency/MiddleCgoal";
 import { MiddleCquiality } from "../../components/startup-agency/MiddleCquiality";
-import Team from "../../components/startup-agency/Team";
 import TextBlock from "../../components/startup-agency/TextBlock";
 import { WorkGalery } from "../../components/startup-agency/WorkGalery";
 
@@ -28,6 +28,8 @@ const StartupAgency = () => {
 
          <WorkGalery />
 
+         {/* <ContactForm /> */}
+         <AddressBlock/>
          <FooterOwe />
       </div>
    );

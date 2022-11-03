@@ -4,7 +4,6 @@ import teamContent from "./teamContent.js";
 
 const Team = () => {
    const listRender = (team) => {
-      console.log(team);
       if (team.id === 999) {
          return <Link to="/gallery" className="theme-btn-nine ">{team.btnText}</Link>;
       } else {
@@ -20,13 +19,11 @@ const Team = () => {
    const contentRender = () => {
       let content = [];
       if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) {
-         console.log("mobil");
          content = teamContent.slice(0, 2);
          content.push({ id: 999, btnText: "More preview" });
       } else {
          content = teamContent;
       }
-      console.log(content);
 
       return content.map((team) => (
          <div className="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay={team.dealyAnimTime} key={team.id}>

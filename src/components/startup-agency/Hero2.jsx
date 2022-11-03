@@ -25,7 +25,7 @@ const Hero2 = () => {
                      <div className="col-12">
                         <p className="term-text">
                            {textIn.questText}
-                           <Link to={void 0} onClick={handleClickChangeLogIn}>
+                           <Link to={()=>void(0)} onClick={handleClickChangeLogIn}>
                               {textIn.logText}
                            </Link>
                         </p>

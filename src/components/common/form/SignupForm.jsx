@@ -52,7 +52,7 @@ const Signup = (props) => {
 
                <div className="col-12">
                   <div className="agreement-checkbox  text-end">
-                     <Link to={void(0)}>Forget Password?</Link>
+                     <Link to={()=>void(0)}>Forget Password?</Link>
                   </div>
                </div>
                <div className="col-12">

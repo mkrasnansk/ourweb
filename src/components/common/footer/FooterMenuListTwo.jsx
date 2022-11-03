@@ -9,12 +9,10 @@ const FooterMenuListTwo = ({ className = "" }) => {
          title: "Links",
          colClass: "col-lg-2",
          list: [
-            { name: "Home", routeLink: "/" },
-            { name: "Pricing", routeLink: "/" },
             { name: "About Us", routeLink: "/" },
-            { name: "Service", routeLink: "/" },
-            { name: "Features", routeLink: "/" },
-            { name: "Blog", routeLink: "/" },
+            { name: "Join Us", routeLink: "/" },
+            { name: "Gallery", routeLink: "/" },
+            { name: "Contact", routeLink: "/" },
          ],
       },
       {
@@ -33,7 +31,7 @@ const FooterMenuListTwo = ({ className = "" }) => {
    return (
       <>
          {footerMenuContent.map((menuItem) => (
-            <div className={`${menuItem.colClass} col-md-3 col-sm-6 mb-40`} key={menuItem.id}>
+            <div className={`${menuItem.colClass} col-md-3 col-sm-6 mb-40 text-center text-md-start`} key={menuItem.id}>
                <h5 className="title">{menuItem.title}</h5>
                <ul className="footer-list style-none">
                   {menuItem.list.map((list, i) => (
@@ -45,7 +43,7 @@ const FooterMenuListTwo = ({ className = "" }) => {
             </div>
          ))}
 
-         <div className="col-lg-4 col-md-6 mb-40">
+         <div className="col-lg-4 col-md-6 mb-40 text-center text-md-start">
             <FooterNewsletter />
          </div>
       </>
