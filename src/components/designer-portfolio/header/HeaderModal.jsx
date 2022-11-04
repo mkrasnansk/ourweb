@@ -1,30 +1,43 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Select from "react-select";
 
 const options = [
    { value: "Digital Marketing", label: "Digital Marketing" },
    { value: "Website Design", label: "Website Design" },
-   { value: "WordPress", label: "WordPress" },
    { value: "Web Analytics", label: "Web Analytics" },
    { value: "Web Programming", label: "Web Programming" },
    { value: "Infographic Design", label: "Infographic Design" },
+   { value: "Price", label: "Price" },
+   { value: "Information", label: "Information" },
 ];
 
 const customStyles = {
-  container: (provided, state) => ({
+   control: (provided, state) => ({
       ...provided,
-      border: "2px solid #339999",
-      borderRadius: 10
+      border: "1px solid #339999",
+      paddingLeft: "1.2rem",
+      "&:hover": {
+         borderColor: "none",
+      },
+      "&:select": {
+         borderColor: "none",
+      },
+   }),
+   option: (provided, state) => ({
+      ...provided,
+   }),
+   input: (provided, state) => ({
+      ...provided,
+      color: "transparent",
+   }),
+   singleValue: (provided, state) => ({
+      ...provided,
+      color: "dark",
+      fontSize: "1rem",
    }),
 };
 const HeaderModal = () => {
-   const [selectedOption, setSelectedOption] = useState(null);
-   useEffect(() => {
-      console.log(document.querySelector(".reSelect"));
-      // document.querySelector(".reSelect").style.border = "2px solid #339999"
-      // document.querySelector(".reSelect").style.borderRadius = "10px"
-      // document.querySelector(".reSel__control").classList.add("form-control")
-   }, []);
+   const [selectedOption, setSelectedOption] = useState({ value: "Information", label: "Information" });
 
    return (
       <div className="modal-content">
@@ -36,17 +49,17 @@ const HeaderModal = () => {
                </div>
             </div>
          </div>
-         <div className="modal-body p0">
+         <div className="modal-body px-0 p-md-2 p-xl-5">
             <div className="container">
                <div className="row">
                   <div className="col-xl-11 m-auto">
-                     <div className="form-style-one">
+                     <div className="user-data-form">
                         <form>
                            <div className="row controls">
                               <div className="col-sm-6">
                                  <div className="input-group-meta form-group mb-25">
                                     <label>First Name*</label>
-                                    <input type="text" placeholder="Rashed" name="name" required="required" data-error="Name is required." />
+                                    <input type="text" placeholder="First Name" name="name" required="required" data-error="Name is required." />
                                     <div className="help-block with-errors"></div>
                                  </div>
                               </div>
@@ -54,41 +67,49 @@ const HeaderModal = () => {
                               <div className="col-sm-6">
                                  <div className="input-group-meta form-group mb-25">
                                     <label>Last Name*</label>
-                                    <input type="text" placeholder="Kabir" name="Lname" required="required" />
+                                    <input type="text" placeholder="Last Name" name="Lname" required="required" />
                                  </div>
                               </div>
 
                               <div className="col-12">
                                  <div className="input-group-meta form-group mb-25">
                                     <label>Email*</label>
-                                    <input type="email" placeholder="rshdkabir@gmail.com" name="email" required="required" />
+                                    <input type="email" placeholder="owe@owe.com" name="email" required="required" />
                                  </div>
                               </div>
                               <div className="col-12">
                                  <div className="input-group-meta form-group mb-25 d-flex flex-column">
                                     <label>Select Service*</label>
                                     <Select
-                                       classNamePrefix="reSel"
-                                       styles={customStyles}
                                        theme={(theme) => ({
                                           ...theme,
-                                          borderRadius: 10,
-
+                                          borderRadius: 0,
                                           spacing: {
-                                             controlHeight: 6,
-                                             baseUnit: 6,
                                              menuGutter: 1,
                                           },
                                           colors: {
+                                             primary: "#339999",
+                                             primary50: "#ccc",
                                              primary25: "#ccc",
+                                             danger: "#ccc",
+                                             dangerLight: "#ccc",
+                                             neutral5: "#ccc",
+                                             neutral10: "#ccc",
+                                             neutral20: "#ccc",
+                                             neutral30: "#ccc",
+                                             neutral40: "#ccc",
+                                             neutral50: "#ccc",
+                                             neutral60: "#ccc",
+                                             neutral70: "#ccc",
+                                             neutral80: "#ccc",
+                                             neutral90: "#ccc",
+
                                              primary75: "#fff",
-                                             primary50: "#339999",
-                                             danger: "#339999",
                                              neutral0: "#fff",
-                                             neutral20: "#339999",
-                                             neutral30: "#339999",
                                           },
                                        })}
+                                       classNamePrefix="reSel"
+                                       styles={customStyles}
                                        className="reSelect"
                                        defaultValue={selectedOption}
                                        onChange={selectedOption}
@@ -100,13 +121,22 @@ const HeaderModal = () => {
                               </div>
                               <div className="col-12">
                                  <label>Message</label>
-                                 <div className="input-group-meta form-group mb-25">
-                                    <textarea placeholder="Your message*" name="message" required="required"></textarea>
+                                 <div className="input-group-meta form-group mb-25 ">
+                                    <textarea className="form-control rounded-0 border-primary" rows={5} placeholder="Your message*" name="message" required="required"></textarea>
                                  </div>
                               </div>
 
-                              <div className="col-12">
-                                 <button className="theme-btn-one ripple-btn">Send Message</button>
+                              <div className="col-12 text-end">
+                                 <div className="row align-items-center">
+                                    <div className="col d-none d-sm-block">
+                                       <img className="img-fluid h-50" src={require("../../../assets/images/svg/logolike.svg").default} alt="brand" />
+                                    </div>
+                                    <div className="col col-sm-auto">
+                                       <div className="d-flex justify-content-end">
+                                          <button className="theme-btn-nine ripple-btn text-nowrap w-100">Send Message</button>
+                                       </div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </form>
