@@ -6,7 +6,7 @@ import FooterMenuListTwo from "../common/footer/FooterMenuListTwo";
 const FooterOwe = () => {
    return (
       <React.Fragment>
-         <div className="pt-1" id="contact">
+         <div className="pt-1">
             <footer className="vcamp-footer-two pt-150 lg-pt-100">
                <div className="container">
                   <div className="row justify-content-center justify-content-md-start">

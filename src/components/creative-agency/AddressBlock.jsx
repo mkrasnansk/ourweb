@@ -5,7 +5,7 @@ import HeaderModal from "../designer-portfolio/header/HeaderModal";
 const AddressBlock = () => {
    return (
       <>
-         <div className="bg-deep-cyan vcamp-text-block-eight  vcamp-feature-section-nine mt-100 lg-mt-150 h-100">
+         <div className="bg-deep-cyan vcamp-text-block-eight  vcamp-feature-section-nine mt-100 lg-mt-150 h-100"  id="contact">
             <div className="container">
                <div className="row ">
                   <div className="col-md-6">
