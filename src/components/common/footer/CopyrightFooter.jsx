@@ -5,7 +5,6 @@ import CopyrightSocial from "./CopyrightSocial";
 const CopyrightFooter = () => {
    const footerList = [
       { id: 1, name: "Privacy & Terms.", routeLink: "/faq-v1" },
-      { id: 2, name: "Contact Us", routeLink: "/contact-v1" },
    ];
    return (
       <div className="row">
@@ -27,12 +26,7 @@ const CopyrightFooter = () => {
 
          <div className="col-lg-4 order-lg-1 mb-15">
             <p className="copyright text-center">
-               {" "}
-               Copyright @{new Date().getFullYear()}{" "}
-               <a href="https://themeforest.net/user/ib-themes/portfolio" target="_blank" rel="noopener noreferrer">
-                  ib-themes
-               </a>{" "}
-               Ltd.
+               Copyright @{new Date().getFullYear()} OWE
             </p>
          </div>
          {/* End .col */}
