@@ -12,7 +12,6 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics,logEvent  } from "firebase/analytics";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
 // const firebaseConfig = {
 //   apiKey: process.env.REACT_APP_APIKEY,
 //   authDomain: process.env.REACT_APP_AUTHDOMAIN,
@@ -28,7 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
    <HelmetProvider>
       <BrowserRouter>
-         <App />
+         <App  />
       </BrowserRouter>
    </HelmetProvider>
 );

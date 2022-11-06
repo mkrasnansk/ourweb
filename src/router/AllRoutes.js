@@ -18,21 +18,20 @@ import NotFound from "../pages/NotFound";
 
 // All Portfolio main and inner pages
 
-
-const AllRoutes = () => {
-  return (
-    <>
-      <ScrollTopBehaviour />
-      <Routes>
-        {/* All home */}
-        <Route path="/" element={<StartupAgency />} />
-        {/* <Route path="/business" element={<Business />} />
+const AllRoutes = (props) => {
+   return (
+      <>
+         <ScrollTopBehaviour />
+         <Routes>
+            {/* All home */}
+            <Route path="/" element={<StartupAgency />} />
+            {/* <Route path="/business" element={<Business />} />
         <Route path="/agency-minimal" element={<AgencyMinimal />} />
         <Route path="/service-provider" element={<ServiceProvider />} />
         <Route path="/startup" element={<Startup />} />
         <Route path="/startup-agency" element={<StartupAgency />} />
         <Route path="/consulting-agency" element={<ConsultingAgency />} /> */}
-        {/* <Route
+            {/* <Route
           path="/photographer-portfolio"
           element={<PhotographerPortfolio />}
         />
@@ -42,10 +41,10 @@ const AllRoutes = () => {
           path="/design-agency-portfolio"
           element={<DesignAgencyPortfolio />}
         /> */}
-        {/* <Route path="/coming-soon" element={<ComingSoon />} /> */}
+            {/* <Route path="/coming-soon" element={<ComingSoon />} /> */}
 
-        {/* elements dropdown Header pages */}
-        {/* <Route path="/ui-header-v1" element={<UiHeaderV1 />} />
+            {/* elements dropdown Header pages */}
+            {/* <Route path="/ui-header-v1" element={<UiHeaderV1 />} />
         <Route path="/ui-header-v2" element={<UiHeaderV2 />} />
         <Route path="/ui-header-v3" element={<UiHeaderV3 />} />
         <Route path="/ui-header-v4" element={<UiHeaderV4 />} />
@@ -53,8 +52,8 @@ const AllRoutes = () => {
         <Route path="/ui-header-v6" element={<UiHeaderV6 />} />
         <Route path="/ui-header-v7" element={<UiHeaderV7 />} /> */}
 
-        {/* elements dropdown Basic pages */}
-        {/* <Route path="/ui-menu-v1" element={<UiMenuV1 />} />
+            {/* elements dropdown Basic pages */}
+            {/* <Route path="/ui-menu-v1" element={<UiMenuV1 />} />
         <Route path="/ui-menu-v2" element={<UiMenuV2 />} />
         <Route path="/ui-menu-v3" element={<UiMenuV3 />} />
         <Route path="/ui-menu-v4" element={<UiMenuV4 />} />
@@ -62,9 +61,9 @@ const AllRoutes = () => {
         <Route path="/ui-buttons" element={<UiButtons />} />
         <Route path="/ui-contact" element={<UiContact />} /> */}
 
-        {/* portfolio dropdown Essentials pages */}
-        {/* Boxed Layout  */}
-        {/* <Route path="/portfolio-v1" element={<PortfolioV1 />} />
+            {/* portfolio dropdown Essentials pages */}
+            {/* Boxed Layout  */}
+            {/* <Route path="/portfolio-v1" element={<PortfolioV1 />} />
         <Route path="/portfolio-v2" element={<PortfolioV2 />} />
         <Route path="/portfolio-v3" element={<PortfolioV3 />} />
         <Route path="/portfolio-v4" element={<PortfolioV4 />} />
@@ -95,37 +94,37 @@ const AllRoutes = () => {
         <Route path="/portfolio-v29" element={<PortfolioV29 />} />
         <Route path="/portfolio-v30" element={<PortfolioV30 />} /> */}
 
-        {/* Single Portfolio Details  */}
-        {/* <Route path="/portfolio-details-v1" element={<PortfolioDetailsV1 />} />
+            {/* Single Portfolio Details  */}
+            {/* <Route path="/portfolio-details-v1" element={<PortfolioDetailsV1 />} />
         <Route path="/portfolio-details-v2" element={<PortfolioDetailsV2 />} />
         <Route path="/portfolio-details-v3" element={<PortfolioDetailsV3 />} />
         <Route path="/portfolio-details-v4" element={<PortfolioDetailsV4 />} />
         <Route path="/portfolio-details-v5" element={<PortfolioDetailsV5 />} />
         <Route path="/portfolio-details-v6" element={<PortfolioDetailsV6 />} /> */}
 
-        {/* pages dropdown Essentials pages */}
-        {/* Essentials */}
-        {/* <Route path="/about-v1" element={<AboutUsV1 />} />
+            {/* pages dropdown Essentials pages */}
+            {/* Essentials */}
+            {/* <Route path="/about-v1" element={<AboutUsV1 />} />
         <Route path="/about-v2" element={<AboutUsV2 />} />
         <Route path="/team-v1" element={<TeamV1 />} />
         <Route path="/team-v2" element={<TeamV2 />} />
         <Route path="/pricing-v1" element={<PricingV1 />} />
         <Route path="/pricing-v2" element={<PricingV2 />} /> */}
 
-        {/* Support */}
-        {/* <Route path="/contact-v1" element={<ContactV1 />} />
+            {/* Support */}
+            {/* <Route path="/contact-v1" element={<ContactV1 />} />
         <Route path="/contact-v2" element={<ContactV2 />} />
         <Route path="/contact-v3" element={<ContactV3 />} /> */}
 
-        {/* Others */}
-        {/* <Route path="/testimonial-v1" element={<TestimonialV1 />} />
+            {/* Others */}
+            {/* <Route path="/testimonial-v1" element={<TestimonialV1 />} />
         <Route path="/testimonial-v2" element={<TestimonialV2 />} />
         <Route path="/testimonial-v3" element={<TestimonialV3 />} />
         <Route path="/faq-v1" element={<FaqV1 />} />
         <Route path="/faq-v2" element={<FaqV2 />} /> */}
 
-        {/* Blog dropdown pages */}
-        {/* <Route path="/blog-v1" element={<BlogV1 />} />
+            {/* Blog dropdown pages */}
+            {/* <Route path="/blog-v1" element={<BlogV1 />} />
         <Route path="/blog-v2" element={<BlogV2 />} />
         <Route path="/blog-v3" element={<BlogV3 />} />
         <Route path="/blog-v4" element={<BlogV4 />} />
@@ -137,8 +136,8 @@ const AllRoutes = () => {
         <Route path="/service-v2" element={<ServiceV2 />} />
         <Route path="/service-v3" element={<ServiceV3 />} /> */}
 
-        {/* All Shop page */}
-        {/* <Route path="/shop-standard" element={<ShopStandard />} />
+            {/* All Shop page */}
+            {/* <Route path="/shop-standard" element={<ShopStandard />} />
         <Route path="/grid-layout" element={<GridLayout />} />
         <Route path="/grid-sidebar" element={<GridWithSidebar />} />
         <Route path="/dark-sidebar-grid" element={<DarkGridWithSidebar />} />
@@ -157,10 +156,10 @@ const AllRoutes = () => {
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} /> */}
 
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </>
-  );
+            <Route path="*" element={<NotFound />} />
+         </Routes>
+      </>
+   );
 };
 
 export default AllRoutes;
