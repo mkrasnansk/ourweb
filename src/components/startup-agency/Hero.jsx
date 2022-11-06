@@ -10,8 +10,10 @@ const Hero = () => {
    dispatch(initialize_url(window.location.href));
    const actUrl = useSelector(actualUrl);
    useEffect(() => {
-      let cutStr = actUrl.includes("https://")? "https://" : "http://"
-      setUrl({ oldTitle: `${actUrl.replace(cutStr, "www.")}`, oldPath: actUrl });
+      let cutStr = actUrl.includes("https://") ? "https://" : "http://";
+      let clearPath = actUrl.replace(cutStr, "");
+      clearPath = clearPath.slice(0, -1);
+      setUrl({ oldTitle: clearPath, oldPath: actUrl });
    }, [actUrl]);
 
    return (
