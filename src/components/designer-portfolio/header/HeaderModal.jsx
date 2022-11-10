@@ -13,7 +13,7 @@ console.log(url);
       try {
          // "http://localhost:4000/mail"
             // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
-            let res = await fetch( "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",{
+            let res = await fetch( "https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail",{
             method: "POST",
             body: JSON.stringify({
                url: url,
