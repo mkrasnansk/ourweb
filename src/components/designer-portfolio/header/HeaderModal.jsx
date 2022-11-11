@@ -12,18 +12,19 @@ const HeaderModal = () => {
       e.preventDefault();
       console.log(name);
       console.log(url);
-
-      fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
+      const optionPost = {
          method: "POST",
-         headers: {'Content-Type':'application/json'},
-         crossDomain: true,
+         headers: { "Content-Type": "application/json" },
          body: JSON.stringify({ name: name, url: url }),
-      })
+      };
+      fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", optionPost)
          .then((res) => {
+            res.header("Access-Control-Allow-Origin", "*");
+            res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
             console.log(res);
-            return res.json()
+            return res.json();
          })
-         .catch((err) => console.log("hovno ",err.message));
+         .catch((err) => console.log("hovno ", err.message));
       console.log("o");
       console.log("ok");
       setName("");
