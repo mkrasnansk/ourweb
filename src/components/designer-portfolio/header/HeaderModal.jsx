@@ -5,24 +5,23 @@ const HeaderModal = () => {
    const [name, setName] = useState("");
    const [url, setUrl] = useState("owee.sk");
    const [message, setMessage] = useState("");
-console.log(url);
+   console.log(url);
    const handleSubmitForm = async (e) => {
       e.preventDefault();
       console.log(name);
       console.log(url);
       try {
          // "http://localhost:4000/mail"
-            // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
-            let res = await fetch( "https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail",{
+         // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
+         let res = await fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
+            crossDomain: true,
             method: "POST",
             body: JSON.stringify({
                url: url,
                name: name,
             }),
             headers: new Headers({ "Content-Type": "application/json" }),
-            mode: 'no-cors',
          });
-         console.log("ho");
          let resJson = await res.json();
          if (res.status === 200) {
             console.log("ok");
@@ -31,9 +30,10 @@ console.log(url);
          } else {
             setMessage("Some error occured");
          }
-         console.log("success");
       } catch (err) {
          console.log(err);
+         console.log(err.message);
+         console.log(res.status);
       }
    };
    return (
@@ -42,7 +42,7 @@ console.log(url);
             <div className="row align-items-center w-100">
                <div className="col">Contact Form</div>
                <div className="col-auto ">
-               <div >{message ? message : null}</div>
+                  <div>{message ? message : null}</div>
                </div>
                <div className="col-auto ">
                   <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
