@@ -14,26 +14,31 @@ const HeaderModal = () => {
          // "http://localhost:4000/mail"
          // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
          let res = await fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
-            crossDomain: true,
-            mode: 'no-cors',
             method: "POST",
+            crossDomain: true,
+            mode: "cors",
+            credentials: "same-origin",
+            cache: "no-cache",
             body: JSON.stringify({
                url: url,
                name: name,
             }),
             headers: new Headers({ "Content-Type": "application/json" }),
+         }).then( async(res) => {
+            let resJson = await res.json();
+            console.log(resJson);
+            if (resJson.status === 200) {
+               console.log("ok");
+               setName("");
+               setMessage("Email send successfully");
+            } else {
+               setMessage("Some error occured");
+            }
          });
-         let resJson = await res.json();
-         if (res.status === 200) {
-            console.log("ok");
-            setName("");
-            setMessage("Email send successfully");
-         } else {
-            setMessage("Some error occured");
-         }
       } catch (err) {
          console.log(err);
          console.log(err.message);
+         console.log("boha");
       }
    };
    return (
