@@ -19,7 +19,8 @@ console.log(url);
                url: url,
                name: name,
             }),
-            headers: new Headers({ "Content-Type": "application/json" })
+            headers: new Headers({ "Content-Type": "application/json" }),
+            mode: 'no-cors',
          });
          console.log("ho");
          let resJson = await res.json();
