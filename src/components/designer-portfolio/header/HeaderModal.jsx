@@ -33,7 +33,6 @@ const HeaderModal = () => {
       } catch (err) {
          console.log(err);
          console.log(err.message);
-         console.log(res.status);
       }
    };
    return (
