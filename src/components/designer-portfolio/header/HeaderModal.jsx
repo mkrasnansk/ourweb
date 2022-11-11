@@ -3,43 +3,31 @@ import { SelectCotactForm } from "../../startup-agency/SelectCotactForm";
 
 const HeaderModal = () => {
    const [name, setName] = useState("");
-   const [url, setUrl] = useState("owee.sk");
+   const [url, setUrl] = useState("www.owee.sk");
    const [message, setMessage] = useState("");
    console.log(url);
-   const handleSubmitForm = async (e) => {
+   // "http://localhost:4000/mail"
+   // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
+   const handleSubmitForm = (e) => {
       e.preventDefault();
       console.log(name);
       console.log(url);
-      try {
-         // "http://localhost:4000/mail"
-         // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
-         let res = await fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
-            method: "POST",
-            crossDomain: true,
-            mode: "cors",
-            credentials: "same-origin",
-            cache: "no-cache",
-            body: JSON.stringify({
-               url: url,
-               name: name,
-            }),
-            headers: new Headers({ "Content-Type": "application/json" }),
-         }).then( async(res) => {
-            let resJson = await res.json();
-            console.log(resJson);
-            if (resJson.status === 200) {
-               console.log("ok");
-               setName("");
-               setMessage("Email send successfully");
-            } else {
-               setMessage("Some error occured");
-            }
-         });
-      } catch (err) {
-         console.log(err);
-         console.log(err.message);
-         console.log("boha");
-      }
+
+      fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
+         method: "POST",
+         headers: {'Content-Type':'application/json'},
+         crossDomain: true,
+         body: JSON.stringify({ name: name, url: url }),
+      })
+         .then((res) => {
+            console.log(res);
+            return res.json()
+         })
+         .catch((err) => console.log("hovno ",err.message));
+      console.log("o");
+      console.log("ok");
+      setName("");
+      setMessage("Email send successfully");
    };
    return (
       <div className="modal-content">
