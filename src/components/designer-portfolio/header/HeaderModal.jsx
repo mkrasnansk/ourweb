@@ -15,6 +15,7 @@ const HeaderModal = () => {
          // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
          let res = await fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", {
             crossDomain: true,
+            mode: 'no-cors',
             method: "POST",
             body: JSON.stringify({
                url: url,
