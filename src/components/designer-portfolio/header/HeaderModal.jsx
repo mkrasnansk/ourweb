@@ -5,28 +5,26 @@ const HeaderModal = () => {
    const [name, setName] = useState("");
    const [url, setUrl] = useState("www.owee.sk");
    const [message, setMessage] = useState("");
-   console.log(url);
-   // "http://localhost:4000/mail"
-   // "http://backend.eba-r22udgp5.us-east-2.elasticbeanstalk.com/mail",
+   // const urlDirect = "http://localhost:443/mail";
+   const urlDirect = "http://gnode-express-env.eba-5dupkbmh.eu-central-1.elasticbeanstalk.com/"
    const handleSubmitForm = (e) => {
       e.preventDefault();
-      console.log(name);
-      console.log(url);
+      console.log("go");
       const optionPost = {
          method: "POST",
-         headers: { "Content-Type": "application/json" },
+         headers: {
+            "Content-Type": "application/json",
+         },
          body: JSON.stringify({ name: name, url: url }),
       };
-      fetch("https://enode.eba-9py6dikp.us-east-1.elasticbeanstalk.com/mail", optionPost)
+      fetch(urlDirect, optionPost)
          .then((res) => {
-            res.header("Access-Control-Allow-Origin", "*");
-            res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+            "";
             console.log(res);
             return res.json();
          })
          .catch((err) => console.log("hovno ", err.message));
-      console.log("o");
-      console.log("ok");
+      console.log("fin");
       setName("");
       setMessage("Email send successfully");
    };
